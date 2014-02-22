@@ -168,14 +168,15 @@
         border-bottom-color: rgb(12, 12, 12) !important; /* rgb(243, 243, 243) */
     }
 
-    /* navbar notification popup */
+    /* popover boxes */
     .popover {
         background-color: black !important;
         box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.2) !important;
     }
 
-    
-    
+    #app.wiki-translation .wiki-translation-popover .head {
+        background-color: rgb(10, 10, 10) !important; /* rgb(245, 245, 245) */
+    }
     
     /* line separator in skill tree sidebar, discussion area, 
         notification bar, dropdown menus, store page, hint table, 
@@ -566,9 +567,6 @@
     .tab-switch > li > a.active, 
     .tab-switch > li > a:active {
         background-color: rgb(28, 28, 28) !important; /* rgb(227, 227, 227) */
-    }
-    #app.wiki-translation .wiki-translation-popover .head {
-        background-color: rgb(10, 10, 10) !important; /* rgb(245, 245, 245) */
     }
     #app.wiki-translation .sentence.highlighted, 
     .wiki-document-body .sentence.highlighted {
