@@ -196,6 +196,9 @@
     .stream-item-comment-list > li {
         border-color: rgb(26, 26, 26) !important; /* rgb(229, 229, 229) */
     }
+    .nav-sidebar > li.divider {
+        border-color: rgb(37, 37, 37) !important; /* rgb(218, 218, 218) */
+    }
     hr,
     #app.wiki-translation .wiki-translation-popover .head,
     #app.wiki-translation .wiki-translation-popover h4.translation,
