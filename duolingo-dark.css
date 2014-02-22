@@ -539,7 +539,6 @@
         color: white !important;
     }
     #app.wiki-translation .instructions .footer {
-        background-color: rgb(16, 16, 16) !important; /* rgb(239, 239, 239) */
         border-color: rgb(43, 43, 43) !important; /* rgb(212, 212, 212) */
     }
     #app.wiki-translation .instructions .strengthened-words > li {
