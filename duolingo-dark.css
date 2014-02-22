@@ -510,7 +510,7 @@
     .language-progress-bar-big .level-next,
     .language-progress-bar-small,
     .language-progress-bar-small .level-next {
-        background-color: rgb(25, 25, 25) !important; /* rgb(230, 230, 230) */
+        background-color: rgb(17, 17, 17) !important; /* rgb(238, 238, 238) */
         color: rgb(86, 86, 86) !important; /* rgb(169, 169, 169) */
     }
     
