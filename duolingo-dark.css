@@ -360,18 +360,16 @@
     }
     
     /* activity line of activity page */
-    .stream-item {
-        border-left-color: rgb(23, 23, 23) !important; /* rgb(232, 232, 232) */
+    .stream-item,
+    .stream-item-type {
+        border-color: rgb(23, 23, 23) !important; /* rgb(232, 232, 232) */
     }
-    .stream-item:first-child:before {
+    .stream-item:first-child:before,
+    .stream-item-type.default {
         background-color: rgb(23, 23, 23) !important; /* rgb(232, 232, 232) */
     }
     .stream-item-type.default {
-        background-color: rgb(23, 23, 23) !important; /* rgb(232, 232, 232) */
         border-color: black !important;
-    }
-    .stream-item-type {
-        border-color: rgb(23, 23, 23) !important; /* rgb(232, 232, 232) */
     }
     
     /* personal stream post discussion area */
