@@ -204,6 +204,7 @@
     #app.wiki-translation .wiki-translation-popover .head,
     #app.wiki-translation .wiki-translation-popover h4.translation,
     .simple-revisions,
+    .simple-revisions > li,
     .hint-footer {
         border-color: rgb(18, 18, 18) !important; /* rgb(237, 237, 237) */
     }
