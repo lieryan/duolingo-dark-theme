@@ -500,7 +500,7 @@
     }
     /* lesson page report */
     .session-end-footer {
-        background-color: rgb(25, 25, 25) !important;
+        background-color: rgb(25, 25, 25) !important; /* rgb(230, 230, 230) */
     }
     .carousel-dot {
         background-color: black !important;
