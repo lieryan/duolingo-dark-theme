@@ -306,6 +306,9 @@
     .btn-outline.btn-standard {
         border-color: rgb(35, 35, 35) !important; /* rgb(220, 220, 220) */
     }
+    .btn-outline.btn-standard:hover {
+        background-color: rgba(255, 255, 255, 0.05) !important; /* rgba(0, 0, 0, 0.05) */
+    }
     .btn-store {
         background-color: black !important;
         border-color: rgb(29, 29, 29) !important; /* rgb(226, 226, 226) */
