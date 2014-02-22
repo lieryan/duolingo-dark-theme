@@ -140,7 +140,8 @@
     .blue-link,
     .discussion-main-body a,
     #app.wiki-translation .wiki-translation-popover .last-edit a,
-    .translation-sidebar .footer > li a {
+    .translation-sidebar .footer > li a,
+    .suggest-store a {
         color: rgb(28, 175, 246) !important;
     }
     
