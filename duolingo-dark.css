@@ -286,11 +286,6 @@
         border-color: rgb(41, 41, 41) !important; /* rgb(214, 214, 214) */
         color: black !important;
     }
-    .btn-white {
-        background-color: black !important;
-        border-color: black !important;
-        color: rgb(195, 195, 195) !important; /* rgb(60, 60, 60) */
-    }
     .btn-primary, 
     .btn-blue, 
     .btn-green, 
@@ -302,6 +297,11 @@
         background-color: rgb(73, 73, 73) !important; /* rgb(182, 182, 182) */
         border-color: rgb(73, 73, 73) !important; /* rgb(182, 182, 182) */
         color: black !important;
+    }
+    .btn-white {
+        background-color: black !important;
+        border-color: black !important;
+        color: rgb(195, 195, 195) !important; /* rgb(60, 60, 60) */
     }
     .btn-outline.btn-standard {
         border-color: rgb(35, 35, 35) !important; /* rgb(220, 220, 220) */
