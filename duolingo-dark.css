@@ -34,7 +34,8 @@
     .white-label,
     .rupee-store-items .wrapper,
     .dropdown-menu,
-    .report-options {
+    .report-options,
+    .lingot-bill {
         background-color: black /* GRP: grpbg2 REP: black */ !important;
     }
     
@@ -57,7 +58,7 @@
     #app.wiki-translation .sentence.highlighted,
     #app.wiki-translation .sentence.translation-placeholder[contenteditable="true"],
     .wiki-document-body .sentence.translation-placeholder[contenteditable="true"] {
-        color: rgb(255, 200, 100) /* GRP: grt-1 REP: rgb(195, 195, 195) */ !important; /* rgb(60, 60, 60) */
+        color: rgb(195, 195, 195) /* GRP: grt-1 REP: rgb(195, 195, 195) */ !important; /* rgb(60, 60, 60) */
     }
 
     a,
@@ -235,7 +236,9 @@
         border-color: rgba(255, 255, 255, 0.07) /* GRP: grpsepar-2 REP: rgb(18, 18, 18) */ !important; /* rgb(237, 237, 237) */
     }
     .progress-xp .col-left, 
-    .translator-stats .document-info {
+    .translator-stats .document-info,
+    .lingot-bill-items > li,
+    .immersion-card .footer {
         border-color: rgba(255, 255, 255, 0.08) /* GRP: grptrborder-4 REP: rgb(16, 16, 16) */ !important; /* rgb(239, 239, 239) */
     }
     .translation-sidebar .footer {
@@ -505,6 +508,7 @@
         background-color: rgba(255, 255, 255, 0.07) /* GRP: grphigh-1 REP: rgb(18, 18, 18) */ !important; /* rgb(243, 243, 243) */
         border-color: black /* GRP: grpbg2 REP: black */ !important;
     }
+
     /* lesson page report */
     .session-end-footer {
         background-color: rgba(255, 255, 255, 0.10) /* GRP: grphigh-5 REP: rgb(25, 25, 25) */ !important; /* rgb(230, 230, 230) */
@@ -520,6 +524,10 @@
     .language-progress-bar-small .level-next {
         background-color: rgb(17, 17, 17) !important; /* rgb(238, 238, 238) */
         color: rgb(86, 86, 86) !important; /* rgb(169, 169, 169) */
+    }
+    .lingot-bill,
+    .immersion-card {
+        box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.2) !important;
     }
     
     /* report sentence popover */
@@ -646,4 +654,5 @@
     .pick-upload-plan > li .content a {
         color: rgb(28, 175, 246) !important; /* rgb(28, 175, 246) */
     }
+
 }
