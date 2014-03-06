@@ -478,6 +478,10 @@
     .speaker-slow {
         border-color: black /* GRP: grpbg2 REP: black */ !important;
     }
+    .blame-popover {
+        background: rgba(255, 255, 255, 0.8) !important;
+        color: black !important;
+    }
     
     .select-images > li {
         background-color: black !important; 
