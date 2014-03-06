@@ -406,6 +406,9 @@
     .stream-item-comment-list {
         background-color: rgba(255, 255, 255, 0.07) /* GRP: grphigh-1 REP: rgb(18, 18, 18) */ !important; /* rgb(243, 243, 243) */
     }
+    .stream-item-comment-list .stream-item-comment-list {
+        background: none !important;
+    }
     
     /* input area, textareas */
     input[type="text"],
