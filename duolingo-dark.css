@@ -3,7 +3,7 @@
 @-moz-document domain("www.duolingo.com") {
     /* disable background image */
     body {
-        background: #161616 /* GRP: grpbg REP: #161616 */ !important; /* #e9e9e9 */
+        background: #161616 /* GRP: grpbg1 REP: #161616 */ !important; /* #e9e9e9 */
     }
 
     .page-main {
@@ -41,7 +41,7 @@
     
     /* text colors */
     body {
-        color: rgb(204, 204, 204) !important; /* rgb(51, 51, 51) */
+        color: rgb(204, 204, 204) /* GRP: grt1 REP: rgb(204, 204, 204) */ !important; /* rgb(51, 51, 51) */
     }
     h1, h2, h4,
     .gray-dark,
@@ -58,7 +58,7 @@
     #app.wiki-translation .sentence.highlighted,
     #app.wiki-translation .sentence.translation-placeholder[contenteditable="true"],
     .wiki-document-body .sentence.translation-placeholder[contenteditable="true"] {
-        color: rgb(195, 195, 195) /* GRP: grt-1 REP: rgb(195, 195, 195) */ !important; /* rgb(60, 60, 60) */
+        color: rgb(195, 195, 195) /* GRP: grt2 REP: rgb(195, 195, 195) */ !important; /* rgb(60, 60, 60) */
     }
 
     a,
@@ -92,7 +92,7 @@
     #app.wiki-translation .instructions .strengthened-words > li i,
     .tab-switch > li > a,
     .upload-panel select option:first-child {
-        color: rgb(102, 102, 102) !important; /* rgb(153, 153, 153) */
+        color: rgb(102, 102, 102) /* GRP: grt3 REP: rgb(102, 102, 102) */ !important; /* rgb(153, 153, 153) */
     }
     
     .translation-footer,
