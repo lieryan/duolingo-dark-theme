@@ -359,6 +359,12 @@
         color: rgb(180, 180, 180) !important; /* rgb(75, 75, 75) */
     }
     
+    /* skill tree / home page */
+    .bonus-row {
+        background-color: rgba(255, 255, 255, 0.02) /* GRP: grplb REP: rgb(6, 6, 6) */ !important; /* rgb(249, 249, 249) */
+        border-color: rgba(255, 255, 255, 0.05) /* GRP: grplb-2 REP: rgb(13, 13, 13) */ !important; /* rgb(242, 242, 242) */
+    }
+
     /* store button in home page */
     .btn-store {
         color: rgb(102, 102, 102) !important; /* rgb(153, 153, 153) */
@@ -614,7 +620,7 @@
     }
     
     .wiki-document-body .wikipedia-article div.thumbinner {
-        background-color: rgba(255, 255, 255, 0.02) /* GRP:  REP: rgb(6, 6, 6) */ !important; /* rgb(249, 249, 249) */
+        background-color: rgba(255, 255, 255, 0.02) /* GRP: grplb REP: rgb(6, 6, 6) */ !important; /* rgb(249, 249, 249) */
         border-color: rgba(255, 255, 255, 0.2) /* GRP: grpbtnout1 REP: rgb(51, 51, 51) */ !important; /* rgb(204, 204, 204) */
     }
 
