@@ -133,7 +133,6 @@
         z-index: 10 !important;
     }
      
-    
     /* vote count */
     .vote-module-small .vote-count {
         background-color: rgba(255, 255, 255, 0.06) /* GRP: grpvote REP: rgb(15, 15, 15) */ !important; /* rgb(240, 240, 240) */
@@ -364,6 +363,9 @@
         background-color: rgba(255, 255, 255, 0.02) /* GRP: grplb REP: rgb(6, 6, 6) */ !important; /* rgb(249, 249, 249) */
         border-color: rgba(255, 255, 255, 0.05) /* GRP: grplb-2 REP: rgb(13, 13, 13) */ !important; /* rgb(242, 242, 242) */
     }
+    .skill-icon.skill-icon-placeholder {
+        border-color: rgba(255, 255, 255, 0.22) /* GRP: grplb-3 REP: rgb(199, 199, 199) */ !important; /* rgb(199, 199, 199) */
+    }
 
     /* store button in home page */
     .btn-store {
@@ -400,6 +402,12 @@
     }
     .stream-item-type.default {
         border-color: /*[[grpbg2]]*/ /* GRP: grpbg2 REP: black */ !important;
+    }
+
+    /* discussion tag */
+    .sticky-discussion-message {
+        background-color: rgba(255, 255, 255, 0.04) /* GRP: grphigh-3 REP: rgb(10, 10, 10) */ !important; /* rgb(245, 245, 245) */
+        color: rgb(102, 102, 102) !important; /* rgb(153, 153, 153) */
     }
     
     /* personal stream post discussion area */
@@ -542,6 +550,16 @@
     .immersion-card {
         box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.2) !important;
     }
+    #review-page ul .challenge.wrong {
+        background-color: rgba(50, 21, 0, 0.5) !important; /* rgb(255, 212, 204) */
+    }
+    #review-page ul .challenge.correct {
+        background-color: rgba(16, 45, 7, 0.5) !important; /* rgb(222, 240, 165) */
+    }
+    #review-page .review-container .badge-correct-micro,
+    #review-page .review-container .badge-wrong-micro {
+        background-color: black;
+    }
     
     /* report sentence popover */
     .report-options {
@@ -558,12 +576,24 @@
     }
     
     /* immersion page */
+    #app.wiki-translation .lesson-like-document #document-hider {
+        background-color: #161616 /* GRP: grpbg1 REP: #161616 */ !important; /* #e9e9e9 */
+    }
+
+    #app.wiki-translation .lesson-like-document .document-header-new {
+        background-color: rgb(12, 12, 12) !important; /* rgb(243, 243, 243) */
+        border-bottom-color: rgb(12, 12, 12) !important; /* rgb(243, 243, 243) */
+    }
+
     #app.wiki-translation .wiki-paragraph, 
     .wiki-document-body .wiki-paragraph, 
     #app.wiki-translation p, 
     .wiki-document-body p,
     .translator-stats .translator-stats-numbers {
         color: white !important;
+    }
+    #app.wiki-translation .lesson-like-document .instructions {
+        border-color: rgb(12, 12, 12) !important; /* rgb(243, 243, 243) */
     }
     #app.wiki-translation .instructions .footer {
         border-color: rgba(255, 255, 255, 0.08) /* GRP: grptrborder-6 (*) REP: rgb(43, 43, 43) */ !important; /* rgb(212, 212, 212) */
