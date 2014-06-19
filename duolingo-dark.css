@@ -133,7 +133,6 @@
         z-index: 10 !important;
     }
      
-    
     /* vote count */
     .vote-module-small .vote-count {
         background-color: rgba(255, 255, 255, 0.06) /* GRP: grpvote REP: rgb(15, 15, 15) */ !important; /* rgb(240, 240, 240) */
@@ -592,6 +591,9 @@
     .wiki-document-body p,
     .translator-stats .translator-stats-numbers {
         color: white !important;
+    }
+    #app.wiki-translation .lesson-like-document .instructions {
+        border-color: rgb(12, 12, 12) !important; /* rgb(243, 243, 243) */
     }
     #app.wiki-translation .instructions .footer {
         border-color: rgba(255, 255, 255, 0.08) /* GRP: grptrborder-6 (*) REP: rgb(43, 43, 43) */ !important; /* rgb(212, 212, 212) */
