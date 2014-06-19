@@ -364,6 +364,9 @@
         background-color: rgba(255, 255, 255, 0.02) /* GRP: grplb REP: rgb(6, 6, 6) */ !important; /* rgb(249, 249, 249) */
         border-color: rgba(255, 255, 255, 0.05) /* GRP: grplb-2 REP: rgb(13, 13, 13) */ !important; /* rgb(242, 242, 242) */
     }
+    .skill-icon.skill-icon-placeholder {
+        border-color: rgba(255, 255, 255, 0.22) /* GRP: grplb-3 REP: rgb(199, 199, 199) */ !important; /* rgb(199, 199, 199) */
+    }
 
     /* store button in home page */
     .btn-store {
