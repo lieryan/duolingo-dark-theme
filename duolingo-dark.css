@@ -237,7 +237,8 @@
     .progress-xp .col-left, 
     .translator-stats .document-info,
     .lingot-bill-items > li,
-    .immersion-card .footer {
+    .immersion-card .footer,
+    #weekly-progress {
         border-color: rgba(255, 255, 255, 0.08) /* GRP: grptrborder-4 REP: rgb(16, 16, 16) */ !important; /* rgb(239, 239, 239) */
     }
     .translation-sidebar .footer {
