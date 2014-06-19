@@ -401,6 +401,12 @@
     .stream-item-type.default {
         border-color: black /* GRP: grpbg2 REP: black */ !important;
     }
+
+    /* discussion tag */
+    .sticky-discussion-message {
+        background-color: rgba(255, 255, 255, 0.04) /* GRP: grphigh-3 REP: rgb(10, 10, 10) */ !important; /* rgb(245, 245, 245) */
+        color: rgb(102, 102, 102) !important; /* rgb(153, 153, 153) */
+    }
     
     /* personal stream post discussion area */
     .stream-item-comment-list {
