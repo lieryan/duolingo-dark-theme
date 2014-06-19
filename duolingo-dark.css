@@ -276,7 +276,7 @@
     
     /* sidebars in immersion page and discussion page */
     .box-gray {
-        background-color: #161616 /* GRP: grpbg1 REP: #161616 */ !important; /* #e9e9e9 */
+        background-color: /*[[grpbg1]]*/ /* GRP: grpbg1 REP: #161616 */ !important; /* #e9e9e9 */
         border-color: rgba(255, 255, 255, 0.06) /* GRP: grptrborder-1 (*) REP: rgb(37, 37, 37) */ !important; /* rgb(218, 218, 218) */
     }
     .nav-sidebar > li:hover,
@@ -576,12 +576,12 @@
         border-color: /*[[grpbg2]]*/ /* GRP: grpbg2 REP: black */ !important;
     }
     .nav-sidebar .icon-sidebar .flag {
-        border-color: #161616 /* GRP: grpbg1 REP: #161616 */ !important; /* #e9e9e9 */
+        border-color: /*[[grpbg1]]*/ /* GRP: grpbg1 REP: #161616 */ !important; /* #e9e9e9 */
     }
     
     /* immersion page */
     #app.wiki-translation .lesson-like-document #document-hider {
-        background-color: #161616 /* GRP: grpbg1 REP: #161616 */ !important; /* #e9e9e9 */
+        background-color: /*[[grpbg1]]*/ /* GRP: grpbg1 REP: #161616 */ !important; /* #e9e9e9 */
     }
 
     #app.wiki-translation .lesson-like-document .document-header-new {
