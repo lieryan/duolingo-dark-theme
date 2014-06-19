@@ -548,6 +548,16 @@
     .immersion-card {
         box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.2) !important;
     }
+    #review-page ul .challenge.wrong {
+        background-color: rgba(50, 21, 0, 0.5) !important; /* rgb(255, 212, 204) */
+    }
+    #review-page ul .challenge.correct {
+        background-color: rgba(16, 45, 7, 0.5) !important; /* rgb(222, 240, 165) */
+    }
+    #review-page .review-container .badge-correct-micro,
+    #review-page .review-container .badge-wrong-micro {
+        background-color: black;
+    }
     
     /* report sentence popover */
     .report-options {
