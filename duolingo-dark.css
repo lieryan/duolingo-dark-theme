@@ -38,6 +38,34 @@
     .lingot-bill {
         background-color: black /* GRP: grpbg2 REP: black */ !important;
     }
+
+    /* front page */
+    ul#site-language-modal.double li a:hover {
+        background-color: rgb(38, 38, 38); /* rgb(227, 227, 227) */
+    }
+    .splash-2014 .duo-info, .splash-2014 .mobile {
+        background-color: rgb(13, 13, 13) !important; /* #f1f1f1 */
+    }
+    .splash-2014 .flag-carousel .featured-languages,
+    .splash-2014 .website {
+        background-color: rgb(0, 0, 0) !important; /* #ffffff */
+    }
+    .splash-2014 h1.splash {
+        color: white !important;
+    }
+    .splash-2014 .btn-green-light {
+        color: white !important;
+    }
+    .splash-2014 .sign-in-btn {
+        color: rgb(28, 175, 246) !important;
+        background-color: white !important;
+        border-color: white !important;
+    }
+    .splash-2014 .footer .section-inner h2,
+    .splash-2014 .footer .footer-main .nav-footer a,
+    .splash-2014 .section-inner .btn.sign-up.bottom-signup-btn {
+        color: white !important;
+    }
     
     /* text colors */
     body {
@@ -167,6 +195,10 @@
     .discussion-main-body a,
     #app.wiki-translation .wiki-translation-popover .last-edit a,
     .translation-sidebar .footer > li a,
+    .splash-2014 .duo-info .section-inner .text .mobile-link a,
+    .splash-2014 .mobile .section-inner .text .mobile-link a,
+    .splash-2014 .duo-info .section-inner .text a,
+    .splash-2014 .flag-carousel .featured-languages li a,
     .suggest-store a {
         color: rgb(28, 175, 246) !important;
     }
