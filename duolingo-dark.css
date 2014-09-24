@@ -35,6 +35,7 @@
     .rupee-store-items .wrapper,
     .dropdown-menu,
     .report-options,
+    .tier-badge-grid .tier-wrapper,
     .lingot-bill {
         background-color: black /* GRP: grpbg2 REP: black */ !important;
     }
@@ -125,6 +126,7 @@
     #avatar-upload,
     #app.wiki-translation .instructions .strengthened-words > li i,
     .tab-switch > li > a,
+    .list-lesson-item.locked h3,
     #default-sidebar p,
     .upload-panel select option:first-child {
         color: rgb(102, 102, 102) /* GRP: grt3 REP: rgb(102, 102, 102) */ !important; /* rgb(153, 153, 153) */
@@ -202,6 +204,7 @@
     .discussion-main-body a,
     #app.wiki-translation .wiki-translation-popover .last-edit a,
     .translation-sidebar .footer > li a,
+    .course-page-en .course-contributors a,
     .splash-2014 .duo-info .section-inner .text .mobile-link a,
     .splash-2014 .mobile .section-inner .text .mobile-link a,
     .splash-2014 .duo-info .section-inner .text a,
@@ -222,6 +225,7 @@
     }
     
     /* top area notification */
+    .persistent-notification,
     .immersion-notification {
         background-color: rgb(12, 12, 12) !important; /* rgb(243, 243, 243) */
         border-color: rgb(24, 24, 24) !important; /* rgb(231, 231, 231) */
@@ -359,6 +363,7 @@
     .btn-blue, 
     .btn-green, 
     .btn-purple,
+    .btn-red,
     .success {
         color: white !important;
     }
@@ -392,11 +397,22 @@
     }
     .btn-faded.btn-red.btn-outline {
         border-color: rgba(64, 16, 8, 0.5) !important; /* rgb(252, 194, 184) */
+        color: rgb(221, 56, 29) !important;
     }
     #vkeyboard_content .vkeyboard_key {
         background-color: rgba(255, 255, 255, 0.09) /* GRP: grpvkbbg REP: rgb(23, 23, 23) */ !important; /* rgb(232, 232, 232) */
         color: rgb(180, 180, 180) !important; /* rgb(75, 75, 75) */
     }
+
+    .btn-locked:before {
+        /* make button lock image visible */
+        opacity: 1 !important;
+    }
+    .btn-outline.btn-locked {
+        color: rgb(45, 45, 45) !important; /* rgb(210, 210, 210) */
+        border-color: rgb(30, 30, 30) !important; /* rgb(225, 225, 225) */
+    }
+
     
     /* skill tree / home page */
     .bonus-row {
