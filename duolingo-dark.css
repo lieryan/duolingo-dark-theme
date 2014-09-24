@@ -702,4 +702,39 @@
         color: rgb(28, 175, 246) !important; /* rgb(28, 175, 246) */
     }
 
+    /* course switcher */
+    .course-card-footer {
+        background-color: rgb(17, 17, 17) !important; /* rgb(238, 238, 238) */
+    }
+    .show-all-courses {
+        color: rgba(0, 0, 0, 0.35) !important;
+    }
+    .show-all-courses:hover {
+        color: white !important;
+    }
+    .course-page-body h1,
+    .course-page-body h2 {
+        color: white !important;
+    }
+    .course-phase-owl .owl-egg-hatched-black,
+    .course-phase-owl .owl-egg-hatching-black {
+        opacity: 1;
+    }
+    .course-phase-label {
+        color: rgba(255, 255, 255, 0.2); /* rgba(0, 0, 0, 0.2) */
+    }
+    .course-bar-background .bubble,
+    .course-bar-background {
+        background-color: white;
+    }
+
+    .course-progress-container {
+        background-color: rgb(8, 8, 8) !important; /* rgb(247, 247, 247) */
+        border-color: rgb(17, 17, 17) !important; /* rgb(238, 238, 238) */
+
+    }
+    .course-contributors .contributor {
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.15);
+    }
+
 }
