@@ -92,6 +92,7 @@
     #word-sidebar .word-strength a,
     #word-sidebar .top-hint a,
     #word-sidebar .word-skill a,
+    div#word-modal #example-sentences tr > td:nth-child(1),
     .wiki-document-body .sentence.translation-placeholder[contenteditable="true"] {
         color: /*[[grt2]]*/ /* GRP: grt2 REP: rgb(195, 195, 195) */ !important; /* rgb(60, 60, 60) */
     }
@@ -128,6 +129,7 @@
     .tab-switch > li > a,
     .list-lesson-item.locked h3,
     #default-sidebar p,
+    div#word-modal #example-sentences td,
     .upload-panel select option:first-child {
         color: /*[[grt3]]*/ /* GRP: grt3 REP: rgb(102, 102, 102) */ !important; /* rgb(153, 153, 153) */
     }
@@ -664,6 +666,12 @@
     }
     #flashcards.modal .card .face.review table.flashcards-review td  {
         border-color: rgb(34, 34, 34); /* rgb(238, 238, 238) */
+    }
+    div#word-modal #example-sentences tr > td:nth-child(1) {
+        color: rgb(60, 60, 60); /* rgb(60, 60, 60) */
+    }
+    div#word-modal #example-sentences tbody tr:nth-child(1) {
+        background-color: rgb(7, 7, 7); /* rgb(248, 248, 248) */
     }
     
     /* immersion page */
