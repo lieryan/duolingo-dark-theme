@@ -261,6 +261,7 @@
     .hint-table table tr td,
     .more-hints,
     .translation-footer,
+    .course-contributors.smaller .contributor .wrapper,
     .discussion-search-results > li {
         border-color: rgba(255, 255, 255, 0.05) /* GRP: grpsepar-1 REP: rgba(12, 12, 12) */ !important; /* rgb(243, 243, 243) */
     }
@@ -675,6 +676,8 @@
         border-bottom-color: rgb(12, 12, 12) !important; /* rgb(243, 243, 243) */
     }
 
+    .wiki-document-body .wikipedia-article .infobox,
+    .wiki-document-body .wikipedia-article .infobox_v2,
     #app.wiki-translation .wiki-paragraph, 
     .wiki-document-body .wiki-paragraph, 
     #app.wiki-translation p, 
@@ -770,6 +773,10 @@
     #app.wiki-translation .wiki-translation-popover .last-edit .reputation-tier {
        color: white !important;
     }
+    .wiki-document-body .wikipedia-article .infobox,
+    .wiki-document-body .wikipedia-article .infobox_v2 {
+        background-color: rgba(255, 255, 255, 0.02) /* GRP: grplb REP: rgb(6, 6, 6) */ !important; /* rgb(249, 249, 249) */
+    }
     
     /* immersion - hightlight diff between translations */ 
     span[style^="background-color:yellow"] {
@@ -822,5 +829,4 @@
     .course-contributors .contributor {
         box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.15);
     }
-
 }
