@@ -51,6 +51,9 @@
     .splash-2014 .website {
         background-color: rgb(0, 0, 0) !important; /* #ffffff */
     }
+    #app.wiki-translation #document-omnibox .last-edit .reputation-tier {
+        color: white !important;
+    }
     .splash-2014 h1.splash {
         color: white !important;
     }
@@ -212,6 +215,7 @@
     .splash-2014 .mobile .section-inner .text .mobile-link a,
     .splash-2014 .duo-info .section-inner .text a,
     .splash-2014 .flag-carousel .featured-languages li a,
+    #app.wiki-translation #document-omnibox .last-edit a,
     .suggest-store a {
         color: rgb(28, 175, 246) !important;
     }
