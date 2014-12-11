@@ -343,7 +343,7 @@
     }
     
     /* table styles */
-    .table th, .table td {
+    .table th, .table td, .tips-notes-panel table td {
         border-color: rgba(255, 255, 255, 0.10) /* GRP: grphigh-5 REP: rgb(25, 25, 25) */ !important; /* rgb(230, 230, 230) */
     }
     
