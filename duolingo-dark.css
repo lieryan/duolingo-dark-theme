@@ -133,6 +133,8 @@
     .list-lesson-item.locked h3,
     #default-sidebar p,
     div#word-modal #example-sentences td,
+    .tips-notes-panel p,
+    .tips-notes-panel li,
     .upload-panel select option:first-child {
         color: rgb(102, 102, 102) /* GRP: grt3 REP: rgb(102, 102, 102) */ !important; /* rgb(153, 153, 153) */
     }
