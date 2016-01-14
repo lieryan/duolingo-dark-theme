@@ -42,7 +42,8 @@ visit http://creativecommons.org/licenses/by/4.0/.
     .dropdown-menu,
     .report-options,
     .tier-badge-grid .tier-wrapper,
-    .lingot-bill {
+    .lingot-bill,
+    .bg-white {
         background-color: black /* GRP: grpbg2 REP: black */ !important;
     }
 
@@ -297,8 +298,9 @@ visit http://creativecommons.org/licenses/by/4.0/.
     .translator-stats .document-info,
     .lingot-bill-items > li,
     .immersion-card .footer,
-    #weekly-progress {
-        border-color: rgba(255, 255, 255, 0.08) /* GRP: grptrborder-4 REP: rgb(16, 16, 16) */ !important; /* rgb(239, 239, 239) */
+    #weekly-progress,
+    .strengthen-skills-container {
+        border-color: rgba(255, 255, 255, 0.13) /* GRP: grptrborder-4 REP: rgb(16, 16, 16) */ !important; /* rgb(239, 239, 239) */
     }
     .translation-sidebar .footer {
         border-color: rgba(255, 255, 255, 0.02) /* GRP: grptrborder-5 REP: rgb(24, 24, 24) */ !important; /* rgb(231, 231, 231) */
