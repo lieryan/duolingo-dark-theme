@@ -507,8 +507,9 @@ visit http://creativecommons.org/licenses/by/4.0/.
     .textarea-translate,
     .input-listen[type="text"],
     .listen-input,
-    .one-line-input[type="text"] {
-        border-color: rgba(255, 255, 255, 0.09) /* GRP: grpinput REP: rgb(22, 22, 22) */ !important; /* rgb(233, 233, 233) */
+    .one-line-input[type="text"],
+    .store-shelf > li {
+        border-color: rgba(255, 255, 255, 0.16) /* GRP: grpinput REP: rgb(22, 22, 22) */ !important; /* rgb(233, 233, 233) */
     }
     
     
