@@ -86,6 +86,7 @@ visit http://creativecommons.org/licenses/by/4.0/.
     .gray-dark,
     .user-flair,
     .list-notifications,
+    .nav-sidebar a,
     .nav-sidebar a:hover,
     .dropdown-menu > li > a,
     .list-leaderboard-item.you .points,
@@ -103,13 +104,15 @@ visit http://creativecommons.org/licenses/by/4.0/.
     #word-sidebar .top-hint a,
     #word-sidebar .word-skill a,
     div#word-modal #example-sentences tr > td:nth-child(1),
-    .wiki-document-body .sentence.translation-placeholder[contenteditable="true"] {
+    .wiki-document-body .sentence.translation-placeholder[contenteditable="true"],
+    .daily-goal-option .title {
         color: rgb(195, 195, 195) /* GRP: grt2 REP: rgb(195, 195, 195) */ !important; /* rgb(60, 60, 60) */
     }
 
     a,
     h3.gray,
     .gray,
+    .discussion-comments-list-item .footer,
     .discussion-comments-list-item .footer a,
     .discussion-main-detail,
     .list-document-item-category,
@@ -851,5 +854,8 @@ visit http://creativecommons.org/licenses/by/4.0/.
     }
     .course-contributors .contributor {
         box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.15);
+    }
+    .store-headline {
+        color: white !important;
     }
 }
