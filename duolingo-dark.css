@@ -5,6 +5,7 @@ visit http://creativecommons.org/licenses/by/4.0/.
 */
 
 @namespace url(http://www.w3.org/1999/xhtml);
+@namespace svg url(http://www.w3.org/2000/svg);
 
 @-moz-document domain("www.duolingo.com") {
     /* disable background image */
@@ -442,6 +443,16 @@ visit http://creativecommons.org/licenses/by/4.0/.
     }
     .skill-icon.skill-icon-placeholder {
         border-color: rgba(255, 255, 255, 0.22) /* GRP: grplb-3 REP: rgb(199, 199, 199) */ !important; /* rgb(199, 199, 199) */
+    }
+
+    .home #daily-donut svg|circle,
+    .slide-session-end #daily-donut svg|circle {
+        fill: black;
+        stroke: black;
+    }
+    .home #daily-donut svg|path,
+    .slide-session-end #daily-donut svg|path {
+        stroke: black;
     }
 
     /* store button in home page */
