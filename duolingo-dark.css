@@ -5,6 +5,7 @@ visit http://creativecommons.org/licenses/by/4.0/.
 */
 
 @namespace url(http://www.w3.org/1999/xhtml);
+@namespace svg url(http://www.w3.org/2000/svg);
 
 @-moz-document domain("www.duolingo.com") {
     /* disable background image */
@@ -86,6 +87,7 @@ visit http://creativecommons.org/licenses/by/4.0/.
     .gray-dark,
     .user-flair,
     .list-notifications,
+    .nav-sidebar a,
     .nav-sidebar a:hover,
     .dropdown-menu > li > a,
     .list-leaderboard-item.you .points,
@@ -103,13 +105,15 @@ visit http://creativecommons.org/licenses/by/4.0/.
     #word-sidebar .top-hint a,
     #word-sidebar .word-skill a,
     div#word-modal #example-sentences tr > td:nth-child(1),
-    .wiki-document-body .sentence.translation-placeholder[contenteditable="true"] {
+    .wiki-document-body .sentence.translation-placeholder[contenteditable="true"],
+    .daily-goal-option .title {
         color: /*[[grt2]]*/ /* GRP: grt2 REP: rgb(195, 195, 195) */ !important; /* rgb(60, 60, 60) */
     }
 
     a,
     h3.gray,
     .gray,
+    .discussion-comments-list-item .footer,
     .discussion-comments-list-item .footer a,
     .discussion-main-detail,
     .list-document-item-category,
@@ -439,6 +443,16 @@ visit http://creativecommons.org/licenses/by/4.0/.
     }
     .skill-icon.skill-icon-placeholder {
         border-color: rgba(255, 255, 255, 0.22) /* GRP: grplb-3 REP: rgb(199, 199, 199) */ !important; /* rgb(199, 199, 199) */
+    }
+
+    .home #daily-donut svg|circle,
+    .slide-session-end #daily-donut svg|circle {
+        fill: black;
+        stroke: black;
+    }
+    .home #daily-donut svg|path,
+    .slide-session-end #daily-donut svg|path {
+        stroke: black;
     }
 
     /* store button in home page */
@@ -851,5 +865,8 @@ visit http://creativecommons.org/licenses/by/4.0/.
     }
     .course-contributors .contributor {
         box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.15);
+    }
+    .store-headline {
+        color: white !important;
     }
 }
